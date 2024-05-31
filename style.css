@@ -1,0 +1,77 @@
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    color: white;
+}
+.rightcontainer{
+    display: flex;
+    justify-content: flex-end;
+}
+.mother1 {
+    display: flex;
+    justify-content: space-between; 
+    align-items: flex-start;
+}
+.space-between{
+    display: flex;
+    justify-content: space-between;
+}
+.center{
+    display: flex;
+    align-self: center;
+}
+.flex-right{
+    display: flex;
+    align-self: flex-end;
+}
+.big-box{
+    width: 200px;
+    height: 200px;
+    background-color: gray;
+    position: relative;
+}
+.mother2 {
+    display: flex;
+    flex-direction: column;
+}
+.mother3 {
+    display: flex;
+    justify-content: center;
+}
+.absolute{
+    position: absolute;
+    left: 50px;
+    top: 50px;
+}
+.relative{
+    position: relative;
+}
+.second-box{
+    width: 100px;
+    height: 100px;
+    background-color: gray;
+    color: white;
+}
+.upperbox{
+    position: absolute;
+    top:0px;
+    right: 0px;
+}
+.lowerbox{
+    position: absolute;
+    bottom:0px;
+    left: 0px;
+}
+.biggestbox{
+    width: 450px;
+    height: 150px;
+    background-color: gray;
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+}
+.mother5{
+    position: relative;
+    margin-top: 250px;
+}

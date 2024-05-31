@@ -1,0 +1,25 @@
+html {
+    height: 100%;
+    width: 100%;
+  }
+
+.box{
+    width: 100px;
+    height: 100px;
+}
+.red {
+    background-color: red;
+}
+.yellow {
+    background-color: yellow;
+}
+.blue {
+    background-color: blue;
+}
+.locate {
+    position: relative; /*있던 위치에서 밀림, 다른 요소는 가만히 있음 */
+    position: absolute; /*내가 속한 부모 태그 기준으로 픽셀 움직임, 0,0 에서 30,30 으로 움직임*/
+    position: static; /*디폴트 기본값, 요소들 순서대로 보호해준다, left right 이런거 이해못함*/
+    position: fixed; /*스크롤바로 움직여도 절대적으로 포지션 고정*/
+    position: sticky /*스크롤바로 내리면 위치 변경됨*/
+}
